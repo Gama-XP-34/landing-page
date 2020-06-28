@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form method="POST" action="https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0">
+        <form method="POST" action="">
             <div class="form-group">
                 <label for="exampleInputName">Nome</label>
                 <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" 
@@ -17,10 +17,12 @@
             <div class="form-group">
               <label for="exampleInputEmail1">Endereço de Email</label>
               <input name="email" type="email" class="form-control" id="exampleInputEmail1"
-               aria-describedby="emailHelp" title="Digite um email válido"/>
+               aria-describedby="emailHelp" title="Digite um email válido" required />
               <small id="emailHelp" class="form-text text-muted">Não compartilharemos seu email com mais ninguém</small>
             </div>
-            <button type="submit" class="btn btn-primary">Baixar</button>
+            <input name="redirectTo" type="hidden" value="https://gama.academy" />
+            <input name="debugMode" type="hidden" value="true" />
+            <input type="submit" class="btn btn-primary" value="Baixar">
         </form>
     </div>
 </body>
