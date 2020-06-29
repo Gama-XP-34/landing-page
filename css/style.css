@@ -25,3 +25,33 @@ body{
     align-items: center;
     justify-content: center 
 }
+
+.formulario{
+    background: #0FA88A;
+    border: 2px red solid;
+    max-width: 480px;
+}
+
+.form-header{
+    background: #6EC5B8;
+   
+}
+
+.form-titulo-n1{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.form-titulo-n2{
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.form-body{
+    margin: 1rem;
+}
+
+.form-body span{
+    color: red;
+}
