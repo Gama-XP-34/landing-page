@@ -10,4 +10,5 @@
     background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
+    width: auto;
 }
