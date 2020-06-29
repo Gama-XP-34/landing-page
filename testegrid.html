@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main right'
+    'footer footer footer footer footer right';
+  <!- grid-gap: 10px; ->
+  background-color: #2196F3;
+  <!- padding: 10px; ->
+}
+
+.grid-container > div {
+  background-color: rgba(18, 236, 36, 0.438);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<footer>
+<h1>Grid Layout</h1>
+
+<p>Precisando corrigir me avisa.</p>
+
+<div class="grid-container">
+  <div class="item1">Estes benefícios para você colaborador e seus familiares são exclusivos <br>
+                     e frutos da parceria </div>
+  <div class="item2">imagem</div>
+  <div class="item3"><Menu>
+                        Menu<br>
+                        opção1 <br>
+                        opção2 <br>
+                        opção3 <br>
+                        opção4 <br>
+                        opção5 <br>
+                    </Menu>
+
+
+  </div>  
+
+
+
+  <div class="item4">telefone</div>
+  <div class="item5"></div>
+</div>
+</footer>
+</body>
+</html>
