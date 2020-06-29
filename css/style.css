@@ -1,14 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .botao{
     background-color: green;
 }
 
-.container{
+body{
+    background: #f0f5f5;
+}
+
+.thanks{
+    text-align: center;
+}
+
+.inner{
     padding: 10rem 5rem 5rem 10rem;
+}
+
+.centralizar{
+    height: 3rem;
+    display: flex;
     align-items: center;
-    background-image: url("../img/paralaxe.jpg");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    width: auto;
+    justify-content: center 
 }
