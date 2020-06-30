@@ -131,6 +131,7 @@ li::before {
 }
 
 .rodape{
+    background: #FFFFFF;
     font-size: 13px;
     text-align: center;
     margin-top: 2rem;
