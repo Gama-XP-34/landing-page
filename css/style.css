@@ -70,6 +70,7 @@ body{
 }
 
 .secundaria{
+    
     background: #000000;
 }
 
@@ -120,10 +121,6 @@ li::before {
 
 .negrito{
     font-weight: bold;
-} 
-
-.direita{
-    margin: 3rem;
 }
 
 .formulario{
@@ -137,4 +134,7 @@ li::before {
     margin-top: 2rem;
 }
 
-
+.texto{
+    padding: 3rem;
+    
+}
