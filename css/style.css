@@ -137,4 +137,15 @@ li::before {
     margin-top: 2rem;
 }
 
+#copy{
+    margin-top: 2rem;
+}
 
+#tx{
+    margin-top: 2rem;
+}
+
+#background{
+    background-color: #FFFFFF;
+    margin-left: 5rem;
+}
