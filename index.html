@@ -14,72 +14,76 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!--Arquivo de estilo personalizado-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
     <title>Arca XP</title>
 </head>
 <body>
     <div class="row principal">
-      <div class="col direita">
+      <div class="col esquerda">
         <input class="btn-black" type="text" size="13" value="eBook Grátis"/>
-        <h1 class="titulo negrito">Desenvolva as habilidades do futuro sem sair do sofá.</h1>
-        <p>Quando vivemos em um cenário que nos mostra que em <span class="negrito">apenas 10 anos, 85% da profissões serão novas,</span>
-          precisamos estar preparados! E nada melhor e mais relaxante do que aprender assitindo um bom filme,
-          com aquela pipoquinha.
-        </p>
-        <div class="formulario" id>
-          <p class="negrito">Aproveite: é grátis</p>
-          <p>Basta preencher o formulário e acessar.</p>
-          <form method="POST" action="https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0">
-            <div class="form-group">
-                <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" 
-                class="form-control" id="exampleInputName" title="Seu nome" placeholder="Seu nome" required />
-            </div>
-            <div class="form-group">
-              <input name="email" type="email" class="form-control" id="exampleInputEmail1"
-               aria-describedby="emailHelp" title="Digite um email válido" placeholder="Seu e-mail" required /> 
-            </div>
-            <input name="redirectTo" type="hidden" value="https://landingpagxp.netlify.app/sucesso.html" />
-            <input  class="btn btn-primary" name="debugMode" type="hidden" value="true" />
-            <input type="submit" class="btn btn-dark btn-lg btn-block" value="Baixar eBook" /> 
-            <small id="emailHelp" class="form-text text-muted">Prometemos não utilizar suas informações de contato
-              para enviar qualquer tipo de SPAM.
-            </small>
-          </form>
+        <div class="box">
+          <h1 class="titulo negrito">Desenvolva as habilidades do futuro sem sair do sofá.</h1>
+          <p>Quando vivemos em um cenário que nos mostra que em <span class="negrito">apenas 10 anos, 85% da profissões serão novas,</span>
+            precisamos estar preparados! E nada melhor e mais relaxante do que aprender assitindo um bom filme,
+            com aquela pipoquinha.
+          </p>
+          <div class="formulario" id>
+            <p class="negrito">Aproveite: é grátis</p>
+            <p>Basta preencher o formulário e acessar.</p>
+            <form method="POST" action="https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0">
+              <div class="form-group">
+                  <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" 
+                  class="form-control" id="exampleInputName" title="Seu nome" placeholder="Seu nome" required />
+              </div>
+              <div class="form-group">
+                <input name="email" type="email" class="form-control" id="exampleInputEmail1"
+                 aria-describedby="emailHelp" title="Digite um email válido" placeholder="Seu e-mail" required /> 
+              </div>
+              <input name="redirectTo" type="hidden" value="http://arcaxp.com.br/sucesso.html" />
+              <input  class="btn btn-primary" name="debugMode" type="hidden" value="true" />
+              <input type="submit" class="btn btn-dark btn-lg btn-block" value="Baixar eBook" /> 
+              <small id="emailHelp" class="form-text text-muted">Prometemos não utilizar suas informações de contato
+                para enviar qualquer tipo de SPAM.
+              </small>
+            </form>
+          </div>
         </div>
+
       </div>  
       <div class="col">
           <img class="arcaimg" src="./img/arca-xp_v2.png" alt="Logo Arca XP" />
-          <img class="img-fluid " src="./img/Image 1.png" alt="17 filmes para você desenvolver as habilidades do futuro"/>
+          <img class="img-fluid" src="./img/image1.png" alt="17 filmes para você desenvolver as habilidades do futuro"/>
       </div>
     </div><!--Fim row principal-->
     <div class="row secundaria">
       <div class="col">
-        <img class="img-fluid" src="./img/Ilsutra.png" alt="Animação de jovens assistindo televisão">
+          <img class="img-fluid" src="./img/image2.png" alt="Animação de jovens assistindo televisão">
       </div>
       <div class="col branca">
-        <h2>E se você pudesse usar as plataformas de <span class="verde">streaming</span> 
-        para se preparar para o futuro?</h2>
-        <p>Fixamos facilmente conteúdos de filmes e séris. Neste ebook você vai 
-          usá-los para desenvolver as habilidades que as grandes empresas estão procurando
-          em seus candidatos e se dar bem no meio profissional.
-        </p>
-        <p><span class="verde">Você vai descobrir:</span></p>
-        <ul>
-          <li>Quais são as principais habilidades do futuro;</li>
-          <li>O que significa cada skill;</li>
-          <li>A importância de cada no ambiente de trabalho;</li>
-          <li>e vários filmes e séries para desenlvê-las, sem sair de casa!</li>
-        </ul>
+        <div class="texto">
+          <h2>E se você pudesse usar as plataformas de <span class="verde">streaming</span> 
+            para se preparar para o futuro?</h2>
+            <p>Fixamos facilmente conteúdos de filmes e séris. Neste ebook você vai 
+              usá-los para desenvolver as habilidades que as grandes empresas estão procurando
+              em seus candidatos e se dar bem no meio profissional.
+            </p>
+            <p><span class="verde">Você vai descobrir:</span></p>
+            <ul>
+              <li>Quais são as principais habilidades do futuro;</li>
+              <li>O que significa cada skill;</li>
+              <li>A importância de cada no ambiente de trabalho;</li>
+              <li>e vários filmes e séries para desenlvê-las, sem sair de casa!</li>
+            </ul>
+        </div>
       </div>
     </div>  
-    <div class="row">
-        <div class="col centralizar">
-          <img class="arcaimg" src="./img/arca-xp-v1.png" alt="Logo Arca XP">
-        </div>
-        <div class="col centralizar">
-          <span class="rodape">Copyright &copy 2020 ARCA XP</span>
-        </div>
-    </div>
+    <footer class=" rodape centralizar">
+      <center>
+          <img class="arcaimg" src="img/arca-xp-v1.png" alt="Logo da Arca XP"><br>
+          <small>Copyright © 2020 ARCAXP</small>
+      </center>
+    </footer>
     <!-- Facebook Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
@@ -98,5 +102,13 @@
       src="https://www.facebook.com/tr?id=719271468920024&ev=PageView&noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171289134-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-171289134-1');
+    </script>
 </body>
 </html>

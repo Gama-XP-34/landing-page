@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3c816da4-576e-400e-9d2f-dfa722ac9246/deploy-status)](https://app.netlify.com/sites/landingpagxp/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/11feb4d3-667d-42c3-a687-05256c4ce097/deploy-status)](https://app.netlify.com/sites/landingpagxp/deploys)
 
 
 # Motivação
