@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+    <script src="js/script.js"></script>
     <title>Arca XP</title>
 </head>
 <body>
@@ -31,14 +32,14 @@
           <div class="formulario" id>
             <p class="negrito">Aproveite: é grátis</p>
             <p>Basta preencher o formulário e acessar.</p>
-            <form method="POST" action="https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0">
+            <form method="POST" action="https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0" onSubmit="return ( verifica() )" name="frmEnvia">
               <div class="form-group">
-                  <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" 
-                  class="form-control" id="exampleInputName" title="Seu nome" placeholder="Seu nome" required />
+                  <input name="name" type="text" pattern="^\D{2,}$" 
+                  class="form-control" id="exampleInputName" title="Fulano Detal" placeholder="Seu nome" required />
               </div>
               <div class="form-group">
-                <input name="email" type="email" class="form-control" id="exampleInputEmail1"
-                 aria-describedby="emailHelp" title="Digite um email válido" placeholder="Seu e-mail" required /> 
+                <input name="email" type="email" class="form-control" id="email"
+                 aria-describedby="emailHelp" title="Digite um email válido" placeholder="Seu e-mail" onblur="checarEmail();" required /> 
               </div>
               <input name="redirectTo" type="hidden" value="http://arcaxp.com.br/sucesso.html" />
               <input  class="btn btn-primary" name="debugMode" type="hidden" value="true" />
