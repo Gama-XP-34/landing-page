@@ -146,3 +146,17 @@ li::before {
     max-width: 480px;
     text-align: justify;
 }
+
+
+
+
+/* For mobile phones: */
+[class*="col"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 480px) {
+    /* For tablets: */
+    div.branca {width: 8.33%;}
+ 
+  
