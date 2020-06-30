@@ -134,20 +134,29 @@ li::before {
     margin-top: 2rem;
 }
 
-<<<<<<< HEAD
+
 #copy{
     margin-top: 2rem;
 }
 
 #tx{
     margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#botao{
+    padding: 0.4rem;
+}
+
+#tx1{
+    font-size: 3rem;
 }
 
 #background{
     background-color: #FFFFFF;
     margin-left: 5rem;
 }
-=======
+
 .texto{
     padding: 3rem;
 }
@@ -160,4 +169,4 @@ li::before {
     max-width: 480px;
     text-align: justify;
 }
->>>>>>> 6b8a0c32fd8428fffd6e633882ebd8b6407bac6f
+
