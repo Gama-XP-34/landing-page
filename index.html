@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Arxa XP é uma empresa do ramo de entretenimento responsavel em demonstrar o
-    melhor contéudo da artes visuais via stream">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -18,25 +16,61 @@
     <title>Arca XP</title>
 </head>
 <body>
-    <div class="container">
-        <form method="POST" action="https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0">
+    <div class="row principal">
+      <div class="col direita">
+        <input class="btn-black" type="text" size="13" value="eBook Grátis"/>
+        <h1 class="titulo negrito">Desenvolva as habilidades do futuro sem sair do sofá.</h1>
+        <p>Quando vivemos em um cenário que nos mostra que em <span class="negrito">apenas 10 anos, 85% da profissões serão novas,</span>
+          precisamos estar preparados! E nada melhor e mais relaxante do que aprender assitindo um bom filme,
+          com aquela pipoquinha.
+        </p>
+        <div class="formulario" id>
+          <p class="negrito">Aproveite: é grátis</p>
+          <p>Basta preencher o formulário e acessar.</p>
+          <form method="POST" action="https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0">
             <div class="form-group">
-                <label for="exampleInputName">Nome</label>
                 <input name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" 
-                class="form-control" id="exampleInputName" title="Digite seu nome completo" required />
+                class="form-control" id="exampleInputName" title="Seu nome" placeholder="Seu nome" required />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Endereço de Email</label>
               <input name="email" type="email" class="form-control" id="exampleInputEmail1"
-               aria-describedby="emailHelp" title="Digite um email válido" required />
-              <small id="emailHelp" class="form-text text-muted">Não compartilharemos seu email com mais ninguém</small>
+               aria-describedby="emailHelp" title="Digite um email válido" placeholder="Seu e-mail" required /> 
             </div>
-            <input name="redirectTo" type="hidden" value="https://landingpagxp.netlify.app/sucesso.html" />
+            <input name="redirectTo" type="hidden" value="https://landingpagxp.netlify.app/obrigado.html" />
             <input  class="btn btn-primary" name="debugMode" type="hidden" value="true" />
-            <input type="submit" class="btn btn-primary" value="Baixar" /> 
-            
-        </form>
-    </div>
+            <input type="submit" class="btn btn-dark btn-lg btn-block" value="Baixar eBook" /> 
+            <small id="emailHelp" class="form-text text-muted">Prometemos não utilizar suas informações de contato
+              para enviar qualquer tipo de SPAM.
+            </small>
+          </form>
+        </div>
+      </div>  
+      <div class="col">
+          <img class="arcaimg" src="./img/arca-xp_v2.png" alt="" />
+          <img class="img-fluid" src="./img/Image 1.png" alt=""/>
+      </div>
+    </div><!--Fim row principal-->
+    <div class="row secundaria">
+      <div class="col">
+        1 of 2
+      </div>
+      <div class="col branca">
+        <h2>E se você pudesse usar as plataformas de <span class="verde">streaming</span> 
+        para se preparar para o futuro?</h2>
+        <p>Fixamos facilmente conteúdos de filmes e séris. Neste ebook você vai 
+          usá-los para desenvolver as habilidades que as grandes empresas estão procurando
+          em seus candidatos e se dar bem no meio profissional.
+        </p>
+        <p><span class="verde">Você vai descobrir:</span></p>
+        <ul>
+          <li>Quais são as principais habilidades do futuro;</li>
+          <li>O que significa cada skill;</li>
+          <li>A importância de cada no ambiente de trabalho;</li>
+          <li>e vários filmes e séries para desenlvê-las, sem sair de casa!</li>
+        </ul>
+      </div>
+    </div>  
+    
     <!-- Facebook Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)

@@ -3,20 +3,85 @@
     padding: 0;
 }
 
+.fundo{
+    background-color: #66cc00;
+}
+
+.logo img{
+    width: 15%;
+}
+
+.inner{
+    padding: 10px;
+}
+
+.centralizar{
+    padding-bottom: 2rem;
+}
+
 .botao{
     background-color: green;
 }
 
-body{
-    background: #f0f5f5;
+.btn-black{
+    background: #000000;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    
+    padding: 0.2rem;
 }
+
+.btn{
+    background-color: #000000;
+    border: #000000;
+    color: #FFFFFF;    
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.ebook{
+    display: flex;
+    justify-content: center;
+}
+
+.ebook img{
+    width: 50%;
+}
+
 
 .thanks{
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.inner{
-    padding: 10rem 5rem 5rem 10rem;
+.principal{
+    background: #66cc00;
+}
+
+.secundaria{
+    background: #000000;
+}
+
+.branca{
+    color:#FFFFFF;
+    padding: 1rem;
+}
+
+.verde{
+    color:#66cc00;
+    font-weight: bold;
+}
+ul {list-style: none}
+li::before {
+    content: "•";
+    color:#66cc00;
+    display: inline-block; width: 1em;
+    margin-left: -1em
 }
 
 .centralizar{
@@ -26,32 +91,26 @@ body{
     justify-content: center 
 }
 
+.arcaimg{
+    max-width:150px;
+    max-height:100px;
+    margin-top: 2rem;   
+}
+
+.titulo{
+    padding-top: 2rem;
+}
+
+.negrito{
+    font-weight: bold;
+} 
+
+.direita{
+    margin: 3rem;
+}
+
 .formulario{
-    background: #0FA88A;
-    border: 2px red solid;
     max-width: 480px;
 }
 
-.form-header{
-    background: #6EC5B8;
-   
-}
 
-.form-titulo-n1{
-    color: #FFFFFF;
-    font-weight: bold;
-}
-
-.form-titulo-n2{
-    color: #FFFFFF;
-    font-style: italic;
-    font-size: 12px;
-}
-
-.form-body{
-    margin: 1rem;
-}
-
-.form-body span{
-    color: red;
-}
