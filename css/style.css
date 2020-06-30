@@ -161,12 +161,15 @@ li::before {
     padding: 3rem;
 }
 
-.esquerda{
-    margin-left: 3rem;
+.col h3{
+    padding-bottom: 3rem;
 }
+
 
 .box{
     max-width: 480px;
     text-align: justify;
 }
+
+
 
