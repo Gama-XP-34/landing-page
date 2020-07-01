@@ -3,7 +3,6 @@
 ![stars](https://img.shields.io/github/stars/Gama-XP-34/landing-page)
 [![code-size](https://img.shields.io/github/languages/code-size/Gama-XP-34/landing-page)](https://img.shields.io/github/Gama-XP-34/landing-page)
 [![commit activity](https://img.shields.io/github/commit-activity/w/Gama-XP-34/landing-page)](https://github.com/Gama-XP-34/landing-page/commits)
-https://img.shields.io/github/commit-activity/w/Gama-XP-34/landing-page
 [![CodeFactor](https://www.codefactor.io/repository/github/luizcsbh/landing-page/badge)](https://www.codefactor.io/repository/github/luizcsbh/landing-page)
 [![last commit](https://img.shields.io/github/last-commit/Gama-XP-34/landing-page)](https://github.com/Gama-XP-34/landing-page/commits)
 [![twwiter follow](https://img.shields.io/twitter/follow/luizcs?style=social)](https://twitter.com/luizcs)
