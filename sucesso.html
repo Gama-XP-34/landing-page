@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- CSS only -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-     <!-- JS, Popper.js, and jQuery -->
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-     <!--Arquivo de estilo personalizado-->
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/reset.css">
-     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
-    <title>Arca XP</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!--Arquivo de estilo personalizado-->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+  <title>Arca XP</title> 
 </head>
+
 <body>
-    <div class="row">
-        <div class="col">
-            
-        </div>
-        <div class="row">
-           
-           
-            <img src="./img/Image 1.png" alt="">
-            
-             <a class="btn btn-dark"  href="./file/17 filmes para você desenvolver as habilidades do futuro.pdf" download>Baixar ebook</a></div>
-            </div>
-        </div>
+  <div class="row mb-2" id="background">
+    <div class="col-md-6">
+      <input id="botao" class="btn-black" type="text" size="13" value="eBook Grátis" />
+      <h1 id="tx1" class="titulo negrito">Tudo pronto! <br> Agora só aproveitar <br> o seu Ebook!</h1>
+      <!-- <h2 class="titulo negrito"><span>Agora só aproveitar <br></span> o seu Ebook!</h2>
+      <h3 id="tx">E não esquece de <br> compartilhar com a galera!</h3> -->
     </div>
-    <footer class="centralizar">
-        <center>
-            <img class="arcaimg" src="img/arca-xp-v1.png" alt="Logo da Arca XP"><br>
-            <small>Copyright © 2020 ARCAXP</small>
-        </center>
+    <div class="col-md-6">
+      <img class="arcaimg" src="./img/arca-xp-v1.png" alt="Logo Arca XP" />
+      <img class="img-fluid " src="./img/image1.png" alt="17 filmes para você desenvolver as habilidades do futuro">
+    </div>
+  </div>
+  <div class="centralizar">
+    <a class="btn btn-dark" href="./file/17 filmes para você desenvolver as habilidades do futuro.pdf" download>Baixar ebook</a>
+  </div>
+  <div class="row rodape centralizar">
+    <div class="col-md-6">
+      <img class="arcaimg" src="./img/arca-xp-v1.png" alt="Logo Arca XP">
+    </div>
+    <div class="col" id="copy">
+      <span>Copyright &copy 2020 ARCA XP</span>
+    </div>
+  </div>    
     </footer>
     <!-- Facebook Pixel Code -->
     <script>
@@ -62,5 +78,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-171289134-1');
       </script>
+
 </body>
+
 </html>

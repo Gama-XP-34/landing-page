@@ -15,14 +15,6 @@ body{
     width: 15%;
 }
 
-.inner{
-    padding: 10px;
-}
-
-.centralizar{
-    padding-bottom: 2rem;
-}
-
 .botao{
     background-color: green;
 }
@@ -70,19 +62,18 @@ body{
 }
 
 .secundaria{
-    
     background: #000000;
 }
 
 .branca{
     color:#FFFFFF;
-    padding: 1rem;
 }
 
 .verde{
     color:#13D227;
     font-weight: bold;
 }
+
 ul {list-style: none}
 li::before {
     content: "•";
@@ -105,15 +96,6 @@ li::before {
     opacity: 1;   
 }
 
-.img-principal{
-    top: 202px;
-    left: 794px;
-    width: 888px;
-    height: 623px;
-    background: 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
 .titulo{
     padding-top: 2rem;
     text-align: left;
@@ -127,6 +109,15 @@ li::before {
     max-width: 480px;
 }
 
+.formulario p{
+    padding:  0.5rem 0rem 0.5rem 0rem;
+}
+
+.formulario small{
+    font-size: 10px;
+    text-align: center;
+}
+
 .rodape{
     background: #FFFFFF;
     font-size: 13px;
@@ -134,29 +125,49 @@ li::before {
     margin-top: 2rem;
 }
 
-.texto{
-    padding: 3rem;
+
+#copy{
+    margin-top: 2rem;
 }
 
-.esquerda{
-    margin-left: 3rem;
+#tx{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#botao{
+    padding: 0.4rem;
+}
+
+#tx1{
+    font-size: 3rem;
+}
+
+#background{
+    background-color: #FFFFFF;
+    margin-left: 5rem;
+}
+
+.texto{
+    padding: 3rem;
+    line-height:1.5;
+    text-align: justify;
+}
+
+.col h3{
+    padding-bottom: 3rem;
 }
 
 .box{
     max-width: 480px;
     text-align: justify;
+    margin: 40px;
 }
 
+.box h1 {
+    padding-bottom: 0.5rem;
+}
 
-
-
-/* For mobile phones: */
-[class*="col"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 480px) {
-    /* For tablets: */
-    div.branca {width: 8.33%;}
- 
-  
+p{
+    padding: 1rem;
+}
