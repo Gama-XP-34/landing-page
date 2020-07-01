@@ -15,4 +15,4 @@ Elaine Estainer
 Rogério Panizza
 
 ## Descrição
-Landing Page criada com HTML e CSS utilizando framework BOOTSTRAP
+Landing Page criada com HTML e CSS utilizando framework BOOTSTRAP 
