@@ -97,7 +97,7 @@ li::before {
 }
 
 .titulo{
-    padding-top: 2rem;
+    padding: 2rem 0.2rem  ;
     text-align: left;
 }
 
@@ -157,6 +157,7 @@ li::before {
 .col h3{
     padding-bottom: 3rem;
 }
+
 
 .box{
     max-width: 480px;
