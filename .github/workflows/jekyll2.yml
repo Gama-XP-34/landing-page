@@ -2,7 +2,7 @@ name: Jekyll site Rogerio
 
 on:
   push:
-    branches: [ master ]
+    branches: [ alteracoes_panizza ]
   pull_request:
     branches: [ alteracoes_panizza ]
 
