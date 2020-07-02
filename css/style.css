@@ -97,8 +97,9 @@ li::before {
 }
 
 .titulo{
-    padding: 2rem 0.2rem  ;
+    padding: 2rem 0.2rem;
     text-align: left;
+    font-size: 2rem;
 }
 
 .negrito{
@@ -114,7 +115,6 @@ li::before {
 }
 
 .formulario small{
-    font-size: 10px;
     text-align: center;
 }
 
