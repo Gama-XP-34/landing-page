@@ -115,7 +115,9 @@ li::before {
 }
 
 .formulario small{
+    color: #000000;
     text-align: center;
+    padding-top: 0.5rem;
 }
 
 .rodape{
@@ -170,5 +172,6 @@ li::before {
 }
 
 p{
+    line-height:1.5;
     padding: 1rem;
 }
