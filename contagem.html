@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+  <title>Apuração dos leads</title>
+ 
+</head>
+
+<body class="fundo">
+  <header class="centralizar" style="padding: 1rem;">
+    <img class="arcaimg" src="./img/icon_arca-xp_v1.png" alt="Arca XP">
+  </header>
+  <div class="row mb-2 dados centralizar" style="padding: 5rem;">
+    <div class="col-mb-6">
+      <h1>Número de leads coletados:</h1>
+    </div>
+    <div class="col-mb-6">
+      <h2 class="leads">Contando...</h2>
+    </div>
+  </div>
+  <div class="lista-leads">
+  </div>
+  <script>
+    const numLeads = document.querySelector(".leads")
+    const listaLeads = document.querySelector(".lista-leads")
+
+    window.onload = requestURL;
+
+    function requestURL() {
+      fetch('https://smtl.gama.academy/leads/bfeee311-b7e1-11ea-8228-89cff86db9a0')
+        .then((response) => response.json())
+        .then((data) => resposta(data));
+    }
+
+    function resposta(json) {
+      let leadIPs = []
+
+      json.forEach(lead => {
+        leadIPs.push(lead.ip)
+      })
+
+      let leadsFiltrados = leadIPs.filter((elem, index, array) => {
+        return array.indexOf(elem) == index;
+      })
+
+      console.log(leadsFiltrados)
+
+      numLeads.innerText = leadsFiltrados.length
+
+      leadsQualificados.forEach((lead) => {
+         let leadInfo = document.createElement("div")
+         leadInfo.innerHTML = `
+         <p><strong>Nome:</strong> ${lead.name}</p>
+         <p><strong>Email:</strong>${lead.email}</p>
+         <p><strong>IP:</strong>${lead.ip}</p>
+         `
+         listaLeads.appendChild(leadInfo)
+       })
+    }
+  </script>
+  <div class="row">
+    <footer class=" rodape centralizar">
+      <center>
+          <img class="arcaimg" src="img/arca-xp-v1.png" alt="Logo da Arca XP"><br>
+          <small>Copyright © 2020 ARCAXP</small>
+      </center>
+    </footer>
+  </div>
+</body>
+<!--Trecho do código retirado do repositório 9Storm-->
+</html>
